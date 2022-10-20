@@ -1,0 +1,54 @@
+body {
+    width: 1920px;
+    font-style: normal;
+}
+.header {
+background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+padding-top: 26px;
+}
+.navigation {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 710px;
+}
+.navigation-link {
+    font-family: 'Arodora Pro', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #E4E4E4;    
+    text-decoration: none;
+}
+.header-nav {
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.current-page::after {
+    content: "" ;           
+    display: block;
+    height: 1px;
+    background: linear-gradient(to right, #E2A300, #E29500);
+}
+.main-title {
+    font-family: 'NEXT ART', sans-serif;
+font-weight: 600;
+font-size: 48px;
+line-height: 54px;
+color: #E4E4E4;
+}
+.main-title strong{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 82px;
+}
+.title {
+    width: 490px;
+}
